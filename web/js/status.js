@@ -61,7 +61,7 @@ function setStatus() {
 function getData () {
     if (xhr.status == 200) {
         if (xhr.readyState == 4) {
-            var div = document.getElementById("statusDiv"); // <div id="quote"></div>
+            var div = document.getElementById("formDiv"); // <div id="quote"></div>
             div.innerHTML = xhr.responseText;
         }
     }
