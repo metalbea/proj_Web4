@@ -8,7 +8,7 @@
 <jsp:include page="head.jsp">
     <jsp:param name="title" value="Home"/>
 </jsp:include>
-<body onload="setStatus();openSocket();">
+<body onload="setStatus();openSocket();getFriendList();">
 <jsp:include page="header.jsp">
     <jsp:param name="title" value="Home"/>
 </jsp:include>
@@ -31,12 +31,39 @@
                 <input type="submit" id="logoutbutton" value="Log Out" onclick="closeSocket();">
             </p>
         </form>
-        <div id="statusDiv" style="float: right">
+        <div class="container" id="statusDiv" style="float: left;width: 100%">
             <div id="formDiv">
+                <form method="post" action="Controller?action=ChangeStatus">
+                    <input type="radio" id="online" name="status" value="online" <c:if test="${sessionScope.get('status').equals('online')}">checked </c:if> >
+                    <label for="online">Online</label><br>
+                    <input type="radio" id="offline" name="status" value="offline" <c:if test="${sessionScope.get('status').equals('offline')}">checked </c:if>>
+                    <label for="offline">Offline</label><br>
+                    <input type="radio" id="away" name="status" value="away" <c:if test="${sessionScope.get('status').equals('away')}">checked </c:if>>
+                    <label for="away">Away</label><br>
+                    <input type="radio" id="other" name="status" value="other" <c:if test="${sessionScope.get('status').equals('other')}">checked </c:if>>
+                    <label for="other">Other</label>
+                    <input type="text" name="otherText" id="otherText" value="<c:if test="${sessionScope.get('status').equals('other')}"><c:out value="${sessionScope.otherText}"/></c:if>">
+                </form>
             </div>
             <input type="button" name="statusButton" id="statusButton" onclick="setStatus()" value="Change status">
         </div>
 
+        <div class="container" style="float: left;width: 100%">
+            <table>
+                <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Status</td>
+                </tr>
+                </thead>
+                <tbody id="friendListTable">
+
+                </tbody>
+            </table>
+        </div>
+            <label for="friendId">new friend</label>
+            <input type="text" name="friendId" id="friendId">
+            <input type="button" name="addFriendButton" onclick="addNewFriend()" value="add">
         <%--posts--%>
         <div class="container" style="float: left;width: 100%">
             <div class="row">
@@ -48,7 +75,7 @@
                     <!-- comments section -->
 
                     <!-- comment form -->
-                    <form class="clearfix" id="comment_form" >
+                    <form class="clearfix" id="comment_form">
                         <textarea name="comment_text" id="comment_text1" class="form-control" cols="30"
                                   rows="3"></textarea>
                         <a>Score: </a><input type="text" id="points1">
@@ -92,20 +119,19 @@
                     <!-- comments section -->
 
                     <!-- comment form -->
-                    <form class="clearfix" action="index.php" method="post" id="comment_form">
-                        <textarea name="comment_text" id="comment_text" class="form-control" cols="30"
+                    <form class="clearfix" id="comment_form">
+                        <textarea name="comment_text" id="comment_text2" class="form-control" cols="30"
                                   rows="3"></textarea>
-                        <a>Score: </a><input type="text" id="points" name="points">
-                        <button class="btn btn-primary btn-sm pull-right" id="submit_comment">Submit comment</button>
+                        <a>Score: </a><input type="text" id="points2" name="points">
+                        <input type="button" value="Submit comment" id="submit_comment" onclick="send(2)">
                     </form>
 
                     <!-- Display total number of comments on this post  -->
 
                     <hr>
                     <!-- comments wrapper -->
-                    <div id="comments-wrapper" style="margin-left: 0px" id="com2">
+                    <div id="comments-wrapper2" style="margin-left: 0px">
                         <div class="comment clearfix">
-                            <img src="profile.png" alt="" class="profile_pic">
                             <div class="comment-details">
                                 <span class="comment-name">Melvine</span>
                                 <span class="comment-date">Apr 24, 2018</span>
@@ -130,20 +156,19 @@
                     <!-- comments section -->
 
                     <!-- comment form -->
-                    <form class="clearfix" action="index.php" method="post" id="comment_form">
-                        <textarea name="comment_text" id="comment_text" class="form-control" cols="30"
+                    <form class="clearfix" id="comment_form">
+                        <textarea name="comment_text" id="comment_text3" class="form-control" cols="30"
                                   rows="3"></textarea>
-                        <a>Score: </a><input type="text" id="points" name="points">
-                        <button class="btn btn-primary btn-sm pull-right" id="submit_comment">Submit comment</button>
+                        <a>Score: </a><input type="text" id="points3">
+                        <input type="button" value="Submit comment" id="submit_comment" onclick="send(3)"/>
                     </form>
 
                     <!-- Display total number of comments on this post  -->
 
                     <hr>
                     <!-- comments wrapper -->
-                    <div id="comments-wrapper" style="margin-left: 0px" id="com3">
+                    <div id="comments-wrapper3" style="margin-left: 0px">
                         <div class="comment clearfix">
-                            <img src="profile.png" alt="" class="profile_pic">
                             <div class="comment-details">
                                 <span class="comment-name">Melvine</span>
                                 <span class="comment-date">Apr 24, 2018</span>
@@ -169,32 +194,30 @@
                     <!-- comments section -->
 
                     <!-- comment form -->
-                    <form class="clearfix" action="index.php" method="post" id="comment_form">
-                        <textarea name="comment_text" id="comment_text" class="form-control" cols="30"
+                    <form class="clearfix" id="comment_form">
+                        <textarea name="comment_text" id="comment_text4" class="form-control" cols="30"
                                   rows="3"></textarea>
-                        <a>Score: </a><input type="text" id="points" name="points">
-                        <button class="btn btn-primary btn-sm pull-right" id="submit_comment">Submit comment</button>
+                        <a>Score: </a><input type="text" id="points4">
+                        <input type="button" value="Submit comment" id="submit_comment" onclick="send(4)"/>
                     </form>
 
                     <!-- Display total number of comments on this post  -->
 
                     <hr>
                     <!-- comments wrapper -->
-                    <div id="comments-wrapper" style="margin-left: 0px" id="com4">
+                    <div id="comments-wrapper4" style="margin-left: 0px">
                         <div class="comment clearfix">
-                            <img src="profile.png" alt="" class="profile_pic">
-                            <div class="comment-details">
-                                <span class="comment-name">Melvine</span>
-                                <span class="comment-date">Apr 24, 2018</span>
-                                <p>This is the first reply to this post on this website.</p>
+                            <span class="comment-name">Melvine</span>
+                            <span class="comment-date">Apr 24, 2018</span>
+                            <p>This is the first reply to this post on this website.</p>
 
-                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- // comments wrapper -->
             </div>
-            <!-- // comments section -->
+            <!-- // comments wrapper -->
+        </div>
+        <!-- // comments section -->
         </div>
 
         <div class="container" style="float: left;width: 100%">
@@ -207,20 +230,19 @@
                     <!-- comments section -->
 
                     <!-- comment form -->
-                    <form class="clearfix" action="index.php" method="post" id="comment_form">
-                        <textarea name="comment_text" id="comment_text" class="form-control" cols="30"
+                    <form class="clearfix" id="comment_form">
+                        <textarea name="comment_text" id="comment_text5" class="form-control" cols="30"
                                   rows="3"></textarea>
-                        <a>Score: </a><input type="text" id="points" name="points">
-                        <button class="btn btn-primary btn-sm pull-right" id="submit_comment">Submit comment</button>
+                        <a>Score: </a><input type="text" id="points5">
+                        <input type="button" value="Submit comment" id="submit_comment" onclick="send(5)"/>
                     </form>
 
                     <!-- Display total number of comments on this post  -->
 
                     <hr>
                     <!-- comments wrapper -->
-                    <div id="comments-wrapper" style="margin-left: 0px" id="com5">
+                    <div id="comments-wrapper5" style="margin-left: 0px">
                         <div class="comment clearfix">
-                            <img src="profile.png" alt="" class="profile_pic">
                             <div class="comment-details">
                                 <span class="comment-name">Melvine</span>
                                 <span class="comment-date">Apr 24, 2018</span>

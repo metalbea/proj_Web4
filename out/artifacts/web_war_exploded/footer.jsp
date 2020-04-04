@@ -7,6 +7,8 @@
 </footer>
 <script src="js/status.js"></script>
 <script src="js/comment.js"></script>
+<script src="js/friendlist.js"></script>
+<%--<script type="text/javascript">getFriendList();</script>--%>
 <!-- Javascripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"/>
 <!-- Bootstrap Javascript -->

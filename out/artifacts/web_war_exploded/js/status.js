@@ -6,40 +6,31 @@ var xhr = new XMLHttpRequest();
 function setStatus() {
     var selectedStatus;
     var customStatus;
-    try
-    {
+    try {
         selectedStatus = document.querySelector('input[name="status"]:checked').value;
-    }
-    catch (e) {
+    } catch (e) {
         selectedStatus = "online";
     }
-    try
-    {
-        if(selectedStatus=="other")
-        {
+    try {
+        if (selectedStatus == "other") {
             customStatus = document.getElementById('otherText').value;
-            document.getElementById("status").innerText=customStatus;
-        }
-        else
-        {
+            document.getElementById("status").innerText = customStatus;
+        } else {
             customStatus = "";
-            document.getElementById("status").innerText=selectedStatus;
+            document.getElementById("status").innerText = selectedStatus;
         }
 
-    }
-    catch (e) {
+    } catch (e) {
         customStatus = "";
     }
-    var url =  "Controller?action=ChangeStatus&status="+ selectedStatus + "&otherText="+ customStatus;
-    xhr.open("GET",url ,true);
-
-
+    var url = "Controller?action=ChangeStatus&status=" + selectedStatus + "&otherText=" + customStatus;
+    xhr.open("GET", url, true);
 
 
     // 1
     // The request has been set up.
     // After you have called the open() method, but before you have called send().
-    xhr.onreadystatechange = getData;
+    /*xhr.onreadystatechange = getStatusData;*/
     // mag NIET getData() zijn
     // want dat wordt het maar 1 keer uitgevoerd
     // en het moet telkens wanneer de readystate van het xhr veranderd worden uitgevoerd
@@ -58,7 +49,7 @@ function setStatus() {
 // After the request has been completed, and the response data has been completely received from the server.
 
 // callback function
-function getData () {
+function getStatusData() {
     if (xhr.status == 200) {
         if (xhr.readyState == 4) {
             var div = document.getElementById("formDiv"); // <div id="quote"></div>

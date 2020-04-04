@@ -35,7 +35,16 @@ public class PersonService {
 		return getPersonRepository().getAuthenticatedUser(email, password);
 	}
 
+	public void setStatus(String personId, String status, String other)
+	{
+		personRepository.setStatus(personId,status, other);
+	}
+
 	private PersonRepository getPersonRepository() {
 		return personRepository;
+	}
+
+	public PersonInfo getPersonInfo(String userId) {
+		return  personRepository.getPersonInfo(userId);
 	}
 }
