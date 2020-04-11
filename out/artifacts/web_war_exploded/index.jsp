@@ -8,7 +8,7 @@
 <jsp:include page="head.jsp">
     <jsp:param name="title" value="Home"/>
 </jsp:include>
-<body onload="setStatus();openSocket();getFriendList();">
+<body onload="setStatus();openCommentSocket();getFriendList();stomme();">
 <jsp:include page="header.jsp">
     <jsp:param name="title" value="Home"/>
 </jsp:include>
@@ -28,7 +28,7 @@
         <p id="status">online</p>
         <form method="post" action="Controller?action=LogOut">
             <p>
-                <input type="submit" id="logoutbutton" value="Log Out" onclick="closeSocket();">
+                <input type="submit" id="logoutbutton" value="Log Out" onclick="closeCommentSocket();">
             </p>
         </form>
         <div class="container" id="statusDiv" style="float: left;width: 100%">
@@ -79,7 +79,7 @@
                         <textarea name="comment_text" id="comment_text1" class="form-control" cols="30"
                                   rows="3"></textarea>
                         <a>Score: </a><input type="text" id="points1">
-                        <input type="button" value="Submit comment" id="submit_comment" onclick="send(1)"/>
+                        <input type="button" value="Submit comment" id="submit_comment" onclick="sendComment(1)"/>
                     </form>
 
                     <!-- Display total number of comments on this post  -->

@@ -1,7 +1,7 @@
 var webSocket;
 var messages = document.getElementById("messages");
 
-function openSocket(){
+function openCommentSocket(){
     webSocket = new WebSocket("ws://localhost:8080/comment");
 
     webSocket.onopen = function(event){
@@ -17,7 +17,7 @@ function openSocket(){
     };
 }
 
-function send(postId){
+function sendComment(postId){
     var name = document.getElementById("userName").value;
     var rating = document.getElementById("points"+postId).value;
     var comment = document.getElementById("comment_text"+postId).value;
@@ -29,11 +29,8 @@ function send(postId){
     webSocket.send(json);
 }
 
-function f() {
-    alert("test");
-}
 
-function closeSocket(){
+function closeCommentSocket(){
     webSocket.close();
 }
 

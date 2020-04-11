@@ -7,6 +7,7 @@
 </footer>
 <script src="js/status.js"></script>
 <script src="js/comment.js"></script>
+<script src="js/chat.js"></script>
 <script src="js/friendlist.js"></script>
 <%--<script type="text/javascript">getFriendList();</script>--%>
 <!-- Javascripts -->

@@ -1,5 +1,4 @@
 var xhr = new XMLHttpRequest();
-var xhr1 = new XMLHttpRequest();
 function getFriendList() {
     var url = "Controller?action=Friendlist";
     xhr.open("GET", url, true);
@@ -25,11 +24,12 @@ function getFriendData() {
 
 
 function addNewFriend() {
+    var xhr1 = new XMLHttpRequest();
     var friendId = document.getElementById('friendId').value;
     var url = "Controller?action=AddFriend&friendId=" + friendId;
     xhr1.open("GET", url, true);
-
     xhr1.send();
+
 }
 
 

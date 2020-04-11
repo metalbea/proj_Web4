@@ -1,22 +1,22 @@
-var webSocket;
+var webChatSocket;
 var messages = document.getElementById("messages");
 
-function openCommentSocket(){
-    webSocket = new WebSocket("ws://localhost:8080/comment");
+function openChatSocket(userId){
+    webChatSocket = new WebSocket("ws://localhost:8080/chat/"+userId);
 
-    webSocket.onopen = function(event){
+    webChatSocket.onopen = function(event){
         console.log("connection opened");
     };
 
-    webSocket.onmessage = function(event){
+    webChatSocket.onmessage = function(event){
         writeResponse(event.data);
     };
 
-    webSocket.onclose = function(event){
+    webChatSocket.onclose = function(event){
         console.log("connection closed");
     };
 }
-
+/*
 function sendComment(postId){
     var name = document.getElementById("userName").value;
     var rating = document.getElementById("points"+postId).value;
@@ -27,12 +27,16 @@ function sendComment(postId){
         ', "comment": "' + comment + '"}';
 
     webSocket.send(json);
+}*/
+
+function stomme() {
+    alert("test");
 }
 
-
-function closeCommentSocket(){
-    webSocket.close();
+function closeChatSocket(){
+    webChatSocket.close();
 }
+/*
 
 function writeResponse(text){
     var obj = JSON.parse(text);
@@ -46,4 +50,4 @@ function writeResponse(text){
         '                        </div>\n' +
         '                        </div>';
 
-}
+}*/

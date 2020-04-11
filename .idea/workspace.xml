@@ -8,37 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="49481e1d-3acb-49aa-a494-e36aa60f4527" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/ChangeStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/ChangeStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/LogOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/LogOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/db/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/db/PersonRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/db/PersonRepositoryStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/db/PersonRepositoryStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/domain/PersonService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/status.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/status.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/status.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/status.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj1/controller/ChangeStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1/controller/ChangeStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj1/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj1/controller/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1/controller/LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj1/controller/LogOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1/controller/LogOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj1/db/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1/db/PersonRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj1/db/PersonRepositoryStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1/db/PersonRepositoryStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj1/domain/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj1/domain/PersonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ChangeStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ChangeStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LogOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/PersonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/PersonRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/PersonRepositoryStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/friendlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/js/friendlist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/status.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/status.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/status.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/status.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/comment.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
                 <element signature="n#c:if#0;n#jsp:root#0;n#!!top" />
                 <element signature="n#c:otherwise#0;n#c:choose#0;n#jsp:root#0;n#!!top" />
@@ -63,37 +38,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/friendlist.js">
+        <entry file="file://$PROJECT_DIR$/web/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/AddFriend.java">
+        <entry file="file://$PROJECT_DIR$/web/js/comment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="578">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="method#sendMessageToAll#0;class#ChatServer#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/Friendlist.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/CommentServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/LogIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" column="59" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -131,10 +121,13 @@
       <find>script</find>
       <find>addNewFriend</find>
       <find>friendListTable</find>
+      <find>openSocket()</find>
+      <find>webSocket</find>
     </findStrings>
     <replaceStrings>
       <replace>requestScope.get('personInfo')</replace>
       <replace>requestScope.get('personInfo')&amp;</replace>
+      <replace>webChatSocket</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,8 +141,6 @@
         <option value="$PROJECT_DIR$/web/main.css" />
         <option value="$PROJECT_DIR$/web/css/sample.css" />
         <option value="$PROJECT_DIR$/web/post.html" />
-        <option value="$PROJECT_DIR$/src/controller/CommentServer.java" />
-        <option value="$PROJECT_DIR$/web/js/comment.js" />
         <option value="$PROJECT_DIR$/web/jquery-3.4.1.min.js" />
         <option value="$PROJECT_DIR$/web/head.jsp" />
         <option value="$PROJECT_DIR$/web/js/jquery_functions.js" />
@@ -161,16 +152,20 @@
         <option value="$PROJECT_DIR$/src/db/PersonRepositoryStub.java" />
         <option value="$PROJECT_DIR$/src/domain/PersonInfo.java" />
         <option value="$PROJECT_DIR$/web/js/addFriend.js" />
-        <option value="$PROJECT_DIR$/web/footer.jsp" />
         <option value="$PROJECT_DIR$/web/status.jsp" />
         <option value="$PROJECT_DIR$/web/js/status.js" />
         <option value="$PROJECT_DIR$/src/controller/FriendController.java" />
         <option value="$PROJECT_DIR$/web/friendlist.jsp" />
         <option value="$PROJECT_DIR$/src/controller/Friendlist.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/controller/AddFriend.java" />
         <option value="$PROJECT_DIR$/web/js/friendlist.js" />
+        <option value="$PROJECT_DIR$/src/controller/CommentServer.java" />
+        <option value="$PROJECT_DIR$/src/controller/ChatServer.java" />
+        <option value="$PROJECT_DIR$/web/js/comment.js" />
+        <option value="$PROJECT_DIR$/web/js/chat.js" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/footer.jsp" />
       </list>
     </option>
   </component>
@@ -219,10 +214,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="479" />
-    <option name="y" value="-17" />
-    <option name="width" value="974" />
-    <option name="height" value="880" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -236,26 +231,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="proj_Web4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_Web4" type="462c0819:PsiDirectoryNode" />
+              <item name="proj_Web4 - deel 1 &amp; 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_Web4 - deel 1 &amp; 2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="proj_Web4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_Web4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="proj_Web4 - deel 1 &amp; 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_Web4 - deel 1 &amp; 2" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="proj_Web4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_Web4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="proj_Web4 - deel 1 &amp; 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj_Web4 - deel 1 &amp; 2" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,18 +374,19 @@
       <workItem from="1585243754414" duration="4161000" />
       <workItem from="1585830022960" duration="13587000" />
       <workItem from="1585916205398" duration="15059000" />
-      <workItem from="1586001411352" duration="1412000" />
+      <workItem from="1586001411352" duration="5914000" />
+      <workItem from="1586008184791" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67226000" />
+    <option name="totallyTimeSpent" value="71823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -594,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/RequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -616,20 +605,6 @@
             <element signature="e#159#160#0" expanded="true" />
             <element signature="e#207#208#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -668,27 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <element signature="n#c:if#0;n#jsp:root#0;n#!!top" />
-            <element signature="n#c:otherwise#0;n#c:choose#0;n#jsp:root#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CommentServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -714,6 +668,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/CommentServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="method#sendMessageToAll#0;class#ChatServer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="n#c:if#0;n#jsp:root#0;n#!!top" />
+            <element signature="n#c:otherwise#0;n#c:choose#0;n#jsp:root#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
